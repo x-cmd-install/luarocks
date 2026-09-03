@@ -1,11 +1,13 @@
 about:
-  description: LuaRocks is the package manager for the Lua programming language.
+  description:
+  |
+    LuaRocks is the package manager for the Lua programming language.
   license: MIT
   homepage: https://luarocks.org
   head: 2d2cc8e
   archived: false
   latestVersion: v3.13.0
-  collectedAt: 2026-09-03T05:14:22Z
+  collectedAt: 2026-09-03T22:35:57Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-08-16
@@ -27,7 +29,7 @@ language:
   Makefile: 8196
   C++: 191
   Linker Script: 143
-totalLine: 1761659
+totalBytes: 1761659
 recent:
   last30d:
     since: 2026-08-04
