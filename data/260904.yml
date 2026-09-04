@@ -7,7 +7,7 @@ about:
   head: 2d2cc8e
   archived: false
   latestVersion: v3.13.0
-  collectedAt: 2026-09-04T20:07:59Z
+  collectedAt: 2026-09-04T20:35:35Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-08-16
@@ -88,7 +88,7 @@ total:
   commit: 2974
 ---
 path: /home/runner/.x-repo/github.com/luarocks/luarocks
-collectedAt: 2026-09-04T20:08:04Z
+collectedAt: 2026-09-04T20:35:40Z
 loc:
   Lua:
     code: 27044
