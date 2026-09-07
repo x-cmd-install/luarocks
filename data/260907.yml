@@ -5,7 +5,7 @@ about:
   head: 2d2cc8e
   archived: false
   latestVersion: "v3.13.0"
-  collectedAt: 2026-09-07T06:04:52Z
+  collectedAt: 2026-09-07T18:23:52Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-08-16
@@ -86,7 +86,7 @@ total:
   commit: 2974
 ---
 path: /home/runner/.x-repo/github.com/luarocks/luarocks
-collectedAt: 2026-09-07T06:05:12Z
+collectedAt: 2026-09-07T18:24:07Z
 loc:
   Lua:
     code: 27044
@@ -264,7 +264,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:05:13+00:00
+  collectedAt: 2026-09-07T18:24:12+00:00
   platform:
     darwin/arm64:
       name:  null
