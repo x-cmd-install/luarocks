@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.13.0"
   latestRelease: "v3.13.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T06:17:21Z
+  collectedAt: 2026-09-09T20:39:41Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-08-16
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-01-28
   lastPrerelease: 
 popularity:
-  star: 3731
+  star: 3732
   watcher: 91
   fork: 479
   release: 69
@@ -90,7 +90,7 @@ total:
   commit: 2974
 ---
 path: /home/runner/.x-repo/github.com/luarocks/luarocks
-collectedAt: 2026-09-09T06:17:51Z
+collectedAt: 2026-09-09T20:40:01Z
 loc:
   Lua:
     code: 27044
