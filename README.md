@@ -4,7 +4,7 @@
 
 LuaRocks is the package manager for the Lua programming language.
 
-![luarocks](https://repo.x-cmd.io/luarocks.svg)
+[![x-cmd/install — luarocks Code Quality Monitoring Repo Card](https://repo.x-cmd.io/luarocks.svg)](https://x-cmd.com/install/luarocks)
 
 ## Install
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 591 · **Open PRs**: 23 · **Closed issues**: 852 · **Open issues**: 220 · **Commits**: 2974
+- **Releases**: 69 · **Merged PRs**: 591 · **Open PRs**: 23 · **Closed issues**: 853 · **Open issues**: 219 · **Commits**: 2974
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 15 | 2 | 2 | 0 | 17 |
-| 90d | 2026-06-20 | 0 | 23 | 2 | 5 | 1 | 31 |
-| last180d | 2026-03-22 | 0 | 27 | 4 | 8 | 8 | 38 |
-| 360d | 2025-09-23 | 1 | 41 | 6 | 15 | 18 | 65 |
-| last720d | 2024-09-28 | 69 | 74 | 13 | 43 | 52 | 284 |
+| 30d | 2026-08-21 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 13 | 2 | 2 | 0 | 17 |
+| 90d | 2026-06-22 | 0 | 23 | 2 | 5 | 1 | 30 |
+| last180d | 2026-03-24 | 0 | 27 | 4 | 8 | 8 | 38 |
+| 360d | 2025-09-25 | 1 | 41 | 6 | 15 | 18 | 65 |
+| last720d | 2024-09-30 | 69 | 74 | 13 | 44 | 51 | 284 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:32:06Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:31:06Z._
