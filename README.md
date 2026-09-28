@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 591 · **Open PRs**: 24 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2974
+- **Releases**: 69 · **Merged PRs**: 591 · **Open PRs**: 25 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2974
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-07-29 | 0 | 13 | 3 | 2 | 1 | 17 |
-| 90d | 2026-06-29 | 0 | 22 | 3 | 5 | 2 | 28 |
-| last180d | 2026-03-31 | 0 | 27 | 3 | 7 | 8 | 37 |
-| 360d | 2025-10-02 | 1 | 41 | 7 | 14 | 18 | 65 |
-| last720d | 2024-10-07 | 69 | 74 | 14 | 44 | 52 | 284 |
+| 30d | 2026-08-29 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last60d | 2026-07-30 | 0 | 13 | 4 | 2 | 1 | 17 |
+| 90d | 2026-06-30 | 0 | 22 | 4 | 5 | 2 | 28 |
+| last180d | 2026-04-01 | 0 | 27 | 4 | 7 | 8 | 37 |
+| 360d | 2025-10-03 | 1 | 41 | 8 | 14 | 18 | 65 |
+| last720d | 2024-10-08 | 69 | 74 | 15 | 44 | 52 | 284 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:29:01Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:49:52Z._
