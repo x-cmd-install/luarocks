@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 2 | 3 | 1 | 1 | 2 |
-| last60d | 2026-08-07 | 0 | 13 | 5 | 3 | 1 | 13 |
-| 90d | 2026-07-08 | 0 | 22 | 5 | 5 | 1 | 30 |
-| last180d | 2026-04-09 | 0 | 28 | 5 | 8 | 8 | 39 |
-| 360d | 2025-10-11 | 1 | 43 | 9 | 15 | 16 | 67 |
-| last720d | 2024-10-16 | 69 | 76 | 16 | 45 | 51 | 286 |
+| 30d | 2026-09-07 | 0 | 2 | 3 | 1 | 1 | 2 |
+| last60d | 2026-08-08 | 0 | 11 | 5 | 3 | 1 | 13 |
+| 90d | 2026-07-09 | 0 | 22 | 5 | 5 | 1 | 30 |
+| last180d | 2026-04-10 | 0 | 28 | 5 | 8 | 8 | 39 |
+| 360d | 2025-10-12 | 1 | 43 | 9 | 14 | 16 | 67 |
+| last720d | 2024-10-17 | 69 | 76 | 16 | 45 | 51 | 286 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:51:14Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:17:23Z._
