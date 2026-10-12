@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.13.0` (2026-01-28)
-- **Last commit**: 2026-10-08
+- **Last commit**: 2026-10-11
 
 ## Popularity
 
-- **Stars**: 3,744 · **Forks**: 481 · **Open issues**: 1,073 · **Contributors**: 117
+- **Stars**: 3,741 · **Forks**: 482 · **Open issues**: 1,073 · **Contributors**: 117
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 594 · **Open PRs**: 26 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2977
+- **Releases**: 69 · **Merged PRs**: 595 · **Open PRs**: 29 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2978
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 2 | 4 | 1 | 1 | 3 |
-| last60d | 2026-08-12 | 0 | 9 | 5 | 2 | 1 | 3 |
-| 90d | 2026-07-13 | 0 | 22 | 5 | 5 | 1 | 22 |
-| last180d | 2026-04-14 | 0 | 29 | 5 | 8 | 8 | 40 |
-| 360d | 2025-10-16 | 1 | 44 | 9 | 14 | 16 | 68 |
-| last720d | 2024-10-21 | 69 | 77 | 16 | 45 | 50 | 287 |
+| 30d | 2026-09-12 | 0 | 3 | 7 | 1 | 1 | 4 |
+| last60d | 2026-08-13 | 0 | 7 | 8 | 2 | 1 | 4 |
+| 90d | 2026-07-14 | 0 | 22 | 8 | 4 | 1 | 23 |
+| last180d | 2026-04-15 | 0 | 30 | 8 | 7 | 8 | 41 |
+| 360d | 2025-10-17 | 1 | 45 | 12 | 13 | 16 | 69 |
+| last720d | 2024-10-22 | 69 | 78 | 19 | 45 | 50 | 151 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T07:00:47Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T07:25:27Z._
