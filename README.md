@@ -26,13 +26,13 @@ Total: **31,587** lines of code across **187** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.8 / 10**
+Overall score: **5.7 / 10**
 
 Lowest-scoring checks:
 
-- **Binary-Artifacts** (0/10) — binaries present in source code
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Binary-Artifacts** (0/10) — binaries present in source code
 
 ## Source
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.13.0` (2026-01-28)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-12
 
 ## Popularity
 
-- **Stars**: 3,741 · **Forks**: 482 · **Open issues**: 1,073 · **Contributors**: 117
+- **Stars**: 3,743 · **Forks**: 482 · **Open issues**: 1,073 · **Contributors**: 117
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 595 · **Open PRs**: 29 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2978
+- **Releases**: 69 · **Merged PRs**: 596 · **Open PRs**: 28 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2979
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 3 | 7 | 1 | 1 | 4 |
-| last60d | 2026-08-13 | 0 | 7 | 8 | 2 | 1 | 4 |
-| 90d | 2026-07-14 | 0 | 22 | 8 | 4 | 1 | 23 |
-| last180d | 2026-04-15 | 0 | 30 | 8 | 7 | 8 | 41 |
-| 360d | 2025-10-17 | 1 | 45 | 12 | 13 | 16 | 69 |
-| last720d | 2024-10-22 | 69 | 78 | 19 | 45 | 50 | 151 |
+| 30d | 2026-09-13 | 0 | 4 | 6 | 1 | 1 | 5 |
+| last60d | 2026-08-14 | 0 | 7 | 7 | 2 | 1 | 5 |
+| 90d | 2026-07-15 | 0 | 23 | 7 | 4 | 1 | 24 |
+| last180d | 2026-04-16 | 0 | 31 | 7 | 7 | 8 | 42 |
+| 360d | 2025-10-18 | 1 | 46 | 11 | 13 | 16 | 70 |
+| last720d | 2024-10-23 | 69 | 79 | 18 | 45 | 50 | 152 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T07:25:27Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T08:15:30Z._
