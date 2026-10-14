@@ -14,11 +14,11 @@ x install luarocks
 
 ## Code insight
 
-Total: **31,587** lines of code across **187** files in the top 5 languages.
+Total: **31,656** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Lua | 27,180 | 1,056 | 7,111 | 162 |
+| Lua | 27,249 | 1,074 | 7,129 | 162 |
 | Q | 1,557 | 0 | 414 | 13 |
 | Batch | 1,186 | 5 | 127 | 2 |
 | Sh | 625 | 74 | 92 | 5 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.13.0` (2026-01-28)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-13
 
 ## Popularity
 
-- **Stars**: 3,743 · **Forks**: 482 · **Open issues**: 1,073 · **Contributors**: 117
+- **Stars**: 3,743 · **Forks**: 481 · **Open issues**: 1,073 · **Contributors**: 118
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 596 · **Open PRs**: 28 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2979
+- **Releases**: 69 · **Merged PRs**: 600 · **Open PRs**: 25 · **Closed issues**: 853 · **Open issues**: 220 · **Commits**: 2983
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 4 | 6 | 1 | 1 | 5 |
-| last60d | 2026-08-14 | 0 | 7 | 7 | 2 | 1 | 5 |
-| 90d | 2026-07-15 | 0 | 23 | 7 | 4 | 1 | 24 |
-| last180d | 2026-04-16 | 0 | 31 | 7 | 7 | 8 | 42 |
-| 360d | 2025-10-18 | 1 | 46 | 11 | 13 | 16 | 70 |
-| last720d | 2024-10-23 | 69 | 79 | 18 | 45 | 50 | 152 |
+| 30d | 2026-09-14 | 0 | 8 | 3 | 1 | 1 | 9 |
+| last60d | 2026-08-15 | 0 | 10 | 4 | 2 | 1 | 9 |
+| 90d | 2026-07-16 | 0 | 26 | 4 | 4 | 1 | 28 |
+| last180d | 2026-04-17 | 0 | 35 | 4 | 7 | 8 | 46 |
+| 360d | 2025-10-19 | 1 | 50 | 8 | 13 | 16 | 74 |
+| last720d | 2024-10-24 | 69 | 83 | 15 | 44 | 50 | 156 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:15:30Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:10:45Z._
