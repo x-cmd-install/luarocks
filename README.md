@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,743 · **Forks**: 481 · **Open issues**: 1,073 · **Contributors**: 118
+- **Stars**: 3,743 · **Forks**: 480 · **Open issues**: 1,073 · **Contributors**: 118
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 8 | 3 | 1 | 1 | 9 |
-| last60d | 2026-08-15 | 0 | 10 | 4 | 2 | 1 | 9 |
-| 90d | 2026-07-16 | 0 | 26 | 4 | 4 | 1 | 28 |
-| last180d | 2026-04-17 | 0 | 35 | 4 | 7 | 8 | 46 |
-| 360d | 2025-10-19 | 1 | 50 | 8 | 13 | 16 | 74 |
-| last720d | 2024-10-24 | 69 | 83 | 15 | 44 | 50 | 156 |
+| 30d | 2026-09-15 | 0 | 8 | 3 | 1 | 1 | 9 |
+| last60d | 2026-08-16 | 0 | 9 | 4 | 2 | 1 | 9 |
+| 90d | 2026-07-17 | 0 | 25 | 4 | 4 | 1 | 28 |
+| last180d | 2026-04-18 | 0 | 35 | 4 | 7 | 8 | 46 |
+| 360d | 2025-10-20 | 1 | 50 | 8 | 13 | 16 | 74 |
+| last720d | 2024-10-25 | 69 | 83 | 15 | 43 | 50 | 156 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T06:10:45Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T06:00:21Z._
