@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,748 · **Forks**: 482 · **Open issues**: 1,074 · **Contributors**: 119
+- **Stars**: 3,749 · **Forks**: 481 · **Open issues**: 1,074 · **Contributors**: 119
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 9 | 6 | 1 | 1 | 10 |
-| last60d | 2026-08-26 | 0 | 10 | 7 | 1 | 2 | 10 |
-| 90d | 2026-07-27 | 0 | 23 | 7 | 3 | 2 | 27 |
-| last180d | 2026-04-28 | 0 | 36 | 7 | 7 | 8 | 47 |
-| 360d | 2025-10-30 | 1 | 51 | 11 | 12 | 17 | 75 |
-| last720d | 2024-11-04 | 69 | 84 | 17 | 43 | 50 | 157 |
+| 30d | 2026-09-26 | 0 | 9 | 5 | 1 | 1 | 10 |
+| last60d | 2026-08-27 | 0 | 10 | 7 | 1 | 2 | 10 |
+| 90d | 2026-07-28 | 0 | 23 | 7 | 3 | 2 | 27 |
+| last180d | 2026-04-29 | 0 | 36 | 7 | 7 | 8 | 47 |
+| 360d | 2025-10-31 | 1 | 51 | 11 | 12 | 17 | 75 |
+| last720d | 2024-11-05 | 69 | 84 | 17 | 43 | 50 | 157 |
 
 ## Distribution status
 
-Reported by **248** distros on [repology.org](https://repology.org/project/luarocks). **89** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
+Reported by **247** distros on [repology.org](https://repology.org/project/luarocks). **88** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:51:48Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:57:46Z._
