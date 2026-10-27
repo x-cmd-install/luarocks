@@ -14,11 +14,11 @@ x install luarocks
 
 ## Code insight
 
-Total: **31,656** lines of code across **187** files in the top 5 languages.
+Total: **31,754** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Lua | 27,249 | 1,074 | 7,129 | 162 |
+| Lua | 27,347 | 1,074 | 7,144 | 162 |
 | Q | 1,557 | 0 | 414 | 13 |
 | Batch | 1,186 | 5 | 127 | 2 |
 | Sh | 625 | 74 | 92 | 5 |
@@ -31,8 +31,8 @@ Overall score: **5.7 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Binary-Artifacts** (0/10) — binaries present in source code
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.13.0` (2026-01-28)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-26
 
 ## Popularity
 
-- **Stars**: 3,749 · **Forks**: 481 · **Open issues**: 1,074 · **Contributors**: 119
+- **Stars**: 3,749 · **Forks**: 481 · **Open issues**: 1,074 · **Contributors**: 121
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 601 · **Open PRs**: 28 · **Closed issues**: 854 · **Open issues**: 220 · **Commits**: 2984
+- **Releases**: 69 · **Merged PRs**: 603 · **Open PRs**: 26 · **Closed issues**: 856 · **Open issues**: 218 · **Commits**: 2987
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 9 | 5 | 1 | 1 | 10 |
-| last60d | 2026-08-27 | 0 | 10 | 7 | 1 | 2 | 10 |
-| 90d | 2026-07-28 | 0 | 23 | 7 | 3 | 2 | 27 |
-| last180d | 2026-04-29 | 0 | 36 | 7 | 7 | 8 | 47 |
-| 360d | 2025-10-31 | 1 | 51 | 11 | 12 | 17 | 75 |
-| last720d | 2024-11-05 | 69 | 84 | 17 | 43 | 50 | 157 |
+| 30d | 2026-09-27 | 0 | 11 | 2 | 2 | 0 | 13 |
+| last60d | 2026-08-28 | 0 | 12 | 5 | 2 | 1 | 13 |
+| 90d | 2026-07-29 | 0 | 25 | 5 | 4 | 1 | 30 |
+| last180d | 2026-04-30 | 0 | 38 | 5 | 8 | 7 | 50 |
+| 360d | 2025-11-01 | 1 | 53 | 9 | 14 | 15 | 78 |
+| last720d | 2024-11-06 | 69 | 86 | 15 | 45 | 48 | 160 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:57:46Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:31:18Z._
