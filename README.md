@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,754 · **Forks**: 481 · **Open issues**: 1,074 · **Contributors**: 121
+- **Stars**: 3,756 · **Forks**: 482 · **Open issues**: 1,074 · **Contributors**: 121
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 607 · **Open PRs**: 25 · **Closed issues**: 856 · **Open issues**: 218 · **Commits**: 2995
+- **Releases**: 69 · **Merged PRs**: 607 · **Open PRs**: 27 · **Closed issues**: 856 · **Open issues**: 218 · **Commits**: 2995
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 12 | 1 | 1 | 0 | 14 |
-| last60d | 2026-09-07 | 0 | 15 | 3 | 2 | 1 | 21 |
-| 90d | 2026-08-08 | 0 | 25 | 4 | 4 | 1 | 33 |
-| last180d | 2026-05-10 | 0 | 41 | 4 | 8 | 4 | 57 |
-| 360d | 2025-11-11 | 1 | 55 | 8 | 14 | 15 | 84 |
-| last720d | 2024-11-16 | 69 | 90 | 14 | 45 | 47 | 168 |
+| 30d | 2026-10-08 | 0 | 12 | 3 | 1 | 0 | 14 |
+| last60d | 2026-09-08 | 0 | 15 | 5 | 2 | 1 | 21 |
+| 90d | 2026-08-09 | 0 | 24 | 6 | 4 | 1 | 33 |
+| last180d | 2026-05-11 | 0 | 41 | 6 | 8 | 4 | 57 |
+| 360d | 2025-11-12 | 1 | 55 | 10 | 14 | 15 | 84 |
+| last720d | 2024-11-17 | 69 | 90 | 16 | 45 | 47 | 168 |
 
 ## Distribution status
 
-Reported by **237** distros on [repology.org](https://repology.org/project/luarocks). **76** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
+Reported by **247** distros on [repology.org](https://repology.org/project/luarocks). **87** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **237** distros on [repology.org](https://repology.org/project/luaro
 | Ubuntu 26.04 LTS | `3.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.8.0` | ⚠️ outdated |
 | Arch | `3.13.0` | ✅ latest |
-| Homebrew | `3.13.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.13.0` | ✅ latest |
 | Nix unstable | `3.13.0-1` | untrusted |
 | Void | `3.13.0` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:18:08Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:21:05Z._
