@@ -51,22 +51,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 607 · **Open PRs**: 28 · **Closed issues**: 856 · **Open issues**: 218 · **Commits**: 2995
+- **Releases**: 69 · **Merged PRs**: 607 · **Open PRs**: 28 · **Closed issues**: 857 · **Open issues**: 217 · **Commits**: 2995
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 8 | 3 | 1 | 0 | 5 |
-| last60d | 2026-09-12 | 0 | 15 | 6 | 2 | 1 | 21 |
-| 90d | 2026-08-13 | 0 | 19 | 7 | 3 | 1 | 21 |
-| last180d | 2026-05-15 | 0 | 41 | 7 | 8 | 4 | 57 |
-| 360d | 2025-11-16 | 1 | 55 | 11 | 14 | 15 | 84 |
-| last720d | 2024-11-21 | 69 | 90 | 17 | 45 | 47 | 168 |
+| 30d | 2026-10-13 | 0 | 7 | 3 | 1 | 0 | 5 |
+| last60d | 2026-09-13 | 0 | 15 | 6 | 2 | 1 | 21 |
+| 90d | 2026-08-14 | 0 | 18 | 7 | 3 | 1 | 21 |
+| last180d | 2026-05-16 | 0 | 41 | 7 | 8 | 4 | 57 |
+| 360d | 2025-11-17 | 1 | 55 | 11 | 14 | 15 | 84 |
+| last720d | 2024-11-22 | 69 | 90 | 17 | 46 | 46 | 168 |
 
 ## Distribution status
 
-Reported by **247** distros on [repology.org](https://repology.org/project/luarocks). **87** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
+Reported by **246** distros on [repology.org](https://repology.org/project/luarocks). **87** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **247** distros on [repology.org](https://repology.org/project/luaro
 | Ubuntu 26.04 LTS | `3.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.8.0` | ⚠️ outdated |
 | Arch | `3.13.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.13.0` | ✅ latest |
 | Fedora rawhide | `3.13.0` | ✅ latest |
 | Nix unstable | `3.13.0-1` | untrusted |
 | Void | `3.13.0` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:50:28Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T09:14:35Z._
