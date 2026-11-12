@@ -1,13 +1,55 @@
-- repo: crux_37
-  subrepo: contrib
+- repo: pardus_21
+  subrepo: main
   srcname: luarocks
+  binnames:
+    - luarocks
   visiblename: luarocks
-  version: 3.11.1
-  origversion: null
+  version: 2.4.2
+  origversion: 2.4.2+dfsg-1.1
   status: outdated
-  summary: LuaRocks is the package manager for Lua modules
   maintainers:
-    - tbier@posteo.de
+    - gareuselesinge@debian.org
+  categories:
+    - interpreters
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 3.8.0
+  origversion: 3.8.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - pkg-lua-devel@lists.alioth.debian.org
+    - kapouer@melix.org
+  categories:
+    - interpreters
+- repo: chimera
+  subrepo: user
+  srcname: luarocks
+  binname: luarocks-lua5.3
+  visiblename: luarocks-lua5.3
+  version: 3.13.0
+  origversion: 3.13.0-r0
+  status: newest
+  summary: Package manager for Lua modules (Lua 5.3 support)
+  licenses:
+    - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 3.8.0
+  origversion: 3.8.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - pkg-lua-devel@lists.alioth.debian.org
+    - kapouer@melix.org
+  categories:
+    - interpreters
 - repo: adelie_current
   subrepo: user
   srcname: luarocks
@@ -316,6 +358,17 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: luarocks
+  binname: luarocks-lua5.4
+  visiblename: luarocks-lua5.4
+  version: 3.13.0
+  origversion: 3.13.0-r0
+  status: newest
+  summary: Package manager for Lua modules (Lua 5.4 support)
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: luarocks
@@ -381,16 +434,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: crux_38
-  subrepo: contrib
-  srcname: luarocks
-  visiblename: luarocks
-  version: 3.13.0
-  origversion: null
-  status: newest
-  summary: LuaRocks is the package manager for Lua modules
-  maintainers:
-    - tbier@posteo.de
 - repo: alpine_3_22
   subrepo: community
   srcname: luarocks
@@ -573,13 +616,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: homebrew
-  srcname: luarocks
-  visiblename: luarocks
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Package manager for the Lua programming language
 - repo: alpine_edge
   subrepo: community
   srcname: luarocks
@@ -649,19 +685,6 @@
     - MIT
   categories:
     - Development/Tools
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 2.4.2
-  origversion: 2.4.2+dfsg-1.1
-  status: outdated
-  maintainers:
-    - gareuselesinge@debian.org
-  categories:
-    - interpreters
 - repo: altsisyphus
   srcname: lua5.4-luarocks
   binnames:
@@ -694,19 +717,8 @@
 - repo: arch
   subrepo: extra
   srcname: luarocks
-  binname: lua-luarocks
-  visiblename: lua-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: arch
-  subrepo: extra
-  srcname: luarocks
-  binname: lua54-luarocks
-  visiblename: lua54-luarocks
+  binname: luarocks
+  visiblename: luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -727,8 +739,8 @@
 - repo: arch
   subrepo: extra
   srcname: luarocks
-  binname: lua51-luarocks
-  visiblename: lua51-luarocks
+  binname: lua-luarocks
+  visiblename: lua-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -749,8 +761,19 @@
 - repo: arch
   subrepo: extra
   srcname: luarocks
-  binname: luarocks
-  visiblename: luarocks
+  binname: lua54-luarocks
+  visiblename: lua54-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: arch
+  subrepo: extra
+  srcname: luarocks
+  binname: lua51-luarocks
+  visiblename: lua51-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -894,28 +917,6 @@
 - repo: chimera
   subrepo: user
   srcname: luarocks
-  binname: luarocks-lua5.3
-  visiblename: luarocks-lua5.3
-  version: 3.13.0
-  origversion: 3.13.0-r0
-  status: newest
-  summary: Package manager for Lua modules (Lua 5.3 support)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: luarocks
-  binname: luarocks-lua5.4
-  visiblename: luarocks-lua5.4
-  version: 3.13.0
-  origversion: 3.13.0-r0
-  status: newest
-  summary: Package manager for Lua modules (Lua 5.4 support)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: luarocks
   binname: luarocks-lua5.5
   visiblename: luarocks-lua5.5
   version: 3.13.0
@@ -931,6 +932,39 @@
   origversion: null
   status: outdated
   summary: A package manager for Lua modules.
+- repo: crux_37
+  subrepo: contrib
+  srcname: luarocks
+  visiblename: luarocks
+  version: 3.11.1
+  origversion: null
+  status: outdated
+  summary: LuaRocks is the package manager for Lua modules
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: luarocks
+  visiblename: luarocks
+  version: 3.13.0
+  origversion: null
+  status: newest
+  summary: LuaRocks is the package manager for Lua modules
+  maintainers:
+    - tbier@posteo.de
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 2.4.2
+  origversion: 2.4.2+dfsg-1.1
+  status: outdated
+  maintainers:
+    - gareuselesinge@debian.org
+  categories:
+    - interpreters
 - repo: debian_12
   subrepo: bookworm/main
   srcname: luarocks
@@ -1039,31 +1073,6 @@
     - kapouer@melix.org
   categories:
     - interpreters
-- repo: epel_6
-  srcname: luarocks
-  visiblename: luarocks
-  version: 2.1.2
-  origversion: 2.1.2-1.el6
-  status: outdated
-  summary: A deployment and management system for Lua modules
-  licenses:
-    - MIT
-  categories:
-    - Development/Tools
-- repo: kali_rolling
-  subrepo: main
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 3.11.1
-  origversion: 3.11.1+dfsg-3
-  status: outdated
-  maintainers:
-    - pkg-lua-devel@lists.alioth.debian.org
-    - kapouer@melix.org
-  categories:
-    - interpreters
 - repo: epel_7
   srcname: luarocks
   visiblename: luarocks
@@ -1141,20 +1150,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 3.9.2
-  origversion: 3.9.2-5.fc40
-  status: outdated
-  summary: A deployment and management system for Lua modules
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: luarocks
   binnames:
@@ -1162,6 +1157,20 @@
   visiblename: luarocks
   version: 3.9.2
   origversion: 3.9.2-4.fc40
+  status: outdated
+  summary: A deployment and management system for Lua modules
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 3.9.2
+  origversion: 3.9.2-5.fc40
   status: outdated
   summary: A deployment and management system for Lua modules
   licenses:
@@ -1196,6 +1205,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: luarocks
+  binname: lua54-luarocks
+  visiblename: lua54-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
 - repo: fedora_43
   subrepo: release
   srcname: luarocks
@@ -1224,34 +1244,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot/main
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 3.8.0
-  origversion: 3.8.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - pkg-lua-devel@lists.alioth.debian.org
-    - kapouer@melix.org
-  categories:
-    - interpreters
-- repo: mageia_9
-  subrepo: core/release
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 3.7.0
-  origversion: 3.7.0-2.mga9
-  status: outdated
-  summary: A package manager for Lua modules
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
 - repo: fedora_rawhide
   subrepo: development
   srcname: luarocks
@@ -1379,14 +1371,21 @@
   origversion: null
   status: newest
   summary: Package manager for the Lua programming language
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: homebrew
+  srcname: luarocks
+  visiblename: luarocks
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Package manager for the Lua programming language
+- repo: kali_rolling
+  subrepo: main
   srcname: luarocks
   binnames:
     - luarocks
   visiblename: luarocks
-  version: 3.8.0
-  origversion: 3.8.0+dfsg1-1
+  version: 3.11.1
+  origversion: 3.11.1+dfsg-3
   status: outdated
   maintainers:
     - pkg-lua-devel@lists.alioth.debian.org
@@ -1480,8 +1479,8 @@
     - lua
 - repo: macports
   srcname: lua/lua-luarocks
-  binname: lua54-luarocks
-  visiblename: lua54-luarocks
+  binname: lua53-luarocks
+  visiblename: lua53-luarocks
   version: 3.9.2
   origversion: null
   status: outdated
@@ -1495,8 +1494,8 @@
     - lua
 - repo: macports
   srcname: lua/lua-luarocks
-  binname: lua53-luarocks
-  visiblename: lua53-luarocks
+  binname: lua54-luarocks
+  visiblename: lua54-luarocks
   version: 3.9.2
   origversion: null
   status: outdated
@@ -1538,6 +1537,20 @@
     - MIT
   categories:
     - lua
+- repo: mageia_9
+  subrepo: core/release
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 3.7.0
+  origversion: 3.7.0-2.mga9
+  status: outdated
+  summary: A package manager for Lua modules
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
 - repo: mageia_10
   subrepo: core/release
   srcname: luarocks
@@ -1580,19 +1593,8 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: luarocks
-  binname: luarocks
-  visiblename: luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: luarocks
-  binname: lua53-luarocks
-  visiblename: lua53-luarocks
+  binname: lua54-luarocks
+  visiblename: lua54-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -1613,8 +1615,8 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: luarocks
-  binname: lua54-luarocks
-  visiblename: lua54-luarocks
+  binname: lua52-luarocks
+  visiblename: lua52-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -1624,8 +1626,41 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: luarocks
-  binname: lua52-luarocks
-  visiblename: lua52-luarocks
+  binname: luarocks
+  visiblename: luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: luarocks
+  binname: lua53-luarocks
+  visiblename: lua53-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: luarocks
+  binname: lua-luarocks
+  visiblename: lua-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: luarocks
+  binname: luarocks
+  visiblename: luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -1676,66 +1711,11 @@
   summary: Deployment and management system for Lua modules
   licenses:
     - custom
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: luarocks
-  binname: luarocks
-  visiblename: luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: luarocks
-  binname: lua-luarocks
-  visiblename: lua-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: luarocks
-  binname: luarocks
-  visiblename: luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: luarocks
-  binname: lua51-luarocks
-  visiblename: lua51-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
 - repo: manjaro_unstable
   subrepo: extra
   srcname: luarocks
   binname: lua52-luarocks
   visiblename: lua52-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: luarocks
-  binname: lua-luarocks
-  visiblename: lua-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -1756,8 +1736,41 @@
 - repo: manjaro_unstable
   subrepo: extra
   srcname: luarocks
+  binname: lua51-luarocks
+  visiblename: lua51-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: luarocks
+  binname: lua-luarocks
+  visiblename: lua-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: luarocks
   binname: lua53-luarocks
   visiblename: lua53-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: luarocks
+  binname: luarocks
+  visiblename: luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
@@ -2346,6 +2359,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: luarocks
+  binname: lua53-luarocks
+  visiblename: lua53-luarocks
+  version: 3.13.0
+  origversion: 3.13.0-5
+  status: newest
+  summary: Deployment and management system for Lua modules
+  licenses:
+    - custom
 - repo: openeuler_24_03_lts_sp1
   srcname: luarocks
   binnames:
@@ -2414,22 +2438,6 @@
   categories:
     - Development/Other
 - repo: openmandriva_rolling
-  subrepo: unsupported/release
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 2.2.2
-  origversion: 2.2.2-1
-  status: legacy
-  summary: Deployment and management system for Lua modules
-  maintainers:
-    - bero@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
-- repo: openmandriva_rolling
   subrepo: main/release
   srcname: luarocks
   binnames:
@@ -2438,6 +2446,22 @@
   version: 3.13.0
   origversion: 3.13.0-1
   status: newest
+  summary: Deployment and management system for Lua modules
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
+- repo: openmandriva_rolling
+  subrepo: unsupported/release
+  srcname: luarocks
+  binnames:
+    - luarocks
+  visiblename: luarocks
+  version: 2.2.2
+  origversion: 2.2.2-1
+  status: legacy
   summary: Deployment and management system for Lua modules
   maintainers:
     - bero@lindev.ch
@@ -2616,28 +2640,6 @@
 - repo: parabola
   subrepo: extra
   srcname: luarocks
-  binname: lua-luarocks
-  visiblename: lua-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: parabola
-  subrepo: extra
-  srcname: luarocks
-  binname: lua53-luarocks
-  visiblename: lua53-luarocks
-  version: 3.13.0
-  origversion: 3.13.0-5
-  status: newest
-  summary: Deployment and management system for Lua modules
-  licenses:
-    - custom
-- repo: parabola
-  subrepo: extra
-  srcname: luarocks
   binname: lua52-luarocks
   visiblename: lua52-luarocks
   version: 3.13.0
@@ -2649,27 +2651,14 @@
 - repo: parabola
   subrepo: extra
   srcname: luarocks
-  binname: lua54-luarocks
-  visiblename: lua54-luarocks
+  binname: lua-luarocks
+  visiblename: lua-luarocks
   version: 3.13.0
   origversion: 3.13.0-5
   status: newest
   summary: Deployment and management system for Lua modules
   licenses:
     - custom
-- repo: pardus_21
-  subrepo: main
-  srcname: luarocks
-  binnames:
-    - luarocks
-  visiblename: luarocks
-  version: 2.4.2
-  origversion: 2.4.2+dfsg-1.1
-  status: outdated
-  maintainers:
-    - gareuselesinge@debian.org
-  categories:
-    - interpreters
 - repo: pkgsrc_2026_2
   srcname: devel/lua-rocks
   binname: lua54-rocks
