@@ -57,16 +57,16 @@ x install luarocks
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 4 | 5 | 1 | 1 | 4 |
-| last60d | 2026-09-21 | 0 | 15 | 8 | 2 | 2 | 21 |
-| 90d | 2026-08-22 | 0 | 16 | 9 | 2 | 2 | 21 |
-| last180d | 2026-05-24 | 0 | 40 | 9 | 7 | 4 | 53 |
-| 360d | 2025-11-25 | 1 | 55 | 13 | 14 | 16 | 84 |
-| last720d | 2024-11-30 | 69 | 90 | 19 | 45 | 47 | 168 |
+| 30d | 2026-10-22 | 0 | 3 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-22 | 0 | 15 | 8 | 2 | 2 | 0 |
+| 90d | 2026-08-23 | 0 | 16 | 9 | 2 | 2 | 0 |
+| last180d | 2026-05-25 | 0 | 40 | 9 | 7 | 4 | 0 |
+| 360d | 2025-11-26 | 1 | 55 | 13 | 13 | 16 | 0 |
+| last720d | 2024-12-01 | 69 | 90 | 19 | 45 | 47 | 168 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/luarocks) 上共有 **246** 个发行版报告此项目。**88** 个 ✅ 已是最新上游版本，**136** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/luarocks) 上共有 **245** 个发行版报告此项目。**88** 个 ✅ 已是最新上游版本，**135** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -76,7 +76,7 @@ x install luarocks
 | Ubuntu 26.04 LTS | `3.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.8.0` | ⚠️ outdated |
 | Arch | `3.13.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.13.0` | ✅ latest |
 | Fedora rawhide | `3.13.0` | ✅ latest |
 | Nix unstable | `3.13.0-1` | untrusted |
 | Void | `3.13.0` | ✅ latest |
@@ -92,4 +92,4 @@ luarocks 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261120.yml` · 2026-11-20T10:01:53Z._
+_数据快照: `data/card/261121.yml` · 2026-11-21T08:28:34Z._

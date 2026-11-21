@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 4 | 5 | 1 | 1 | 4 |
-| last60d | 2026-09-21 | 0 | 15 | 8 | 2 | 2 | 21 |
-| 90d | 2026-08-22 | 0 | 16 | 9 | 2 | 2 | 21 |
-| last180d | 2026-05-24 | 0 | 40 | 9 | 7 | 4 | 53 |
-| 360d | 2025-11-25 | 1 | 55 | 13 | 14 | 16 | 84 |
-| last720d | 2024-11-30 | 69 | 90 | 19 | 45 | 47 | 168 |
+| 30d | 2026-10-22 | 0 | 3 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-22 | 0 | 15 | 8 | 2 | 2 | 0 |
+| 90d | 2026-08-23 | 0 | 16 | 9 | 2 | 2 | 0 |
+| last180d | 2026-05-25 | 0 | 40 | 9 | 7 | 4 | 0 |
+| 360d | 2025-11-26 | 1 | 55 | 13 | 13 | 16 | 0 |
+| last720d | 2024-12-01 | 69 | 90 | 19 | 45 | 47 | 168 |
 
 ## Distribution status
 
-Reported by **246** distros on [repology.org](https://repology.org/project/luarocks). **88** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
+Reported by **245** distros on [repology.org](https://repology.org/project/luarocks). **88** are ✅ on the latest upstream release, **135** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **246** distros on [repology.org](https://repology.org/project/luaro
 | Ubuntu 26.04 LTS | `3.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.8.0` | ⚠️ outdated |
 | Arch | `3.13.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.13.0` | ✅ latest |
 | Fedora rawhide | `3.13.0` | ✅ latest |
 | Nix unstable | `3.13.0-1` | untrusted |
 | Void | `3.13.0` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for luarocks lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:01:52Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:28:34Z._
